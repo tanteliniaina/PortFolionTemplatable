@@ -1,4 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
-
+/*
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*/
+body {
+    position: relative;
+}
+
+.imageBody {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.pictureclass {
+    object-fit: cover;
+    Height: 100%;
+    Width: 100%;
+}
+
+.presentation {
+    background-image: url("./assets/Pictures/BgNavbar.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+h2,
+h5 {
+    color: grey;
+}
+
+
+.container-fluid {
+    padding: 20px;
+}
+
+canvas {
+    height: 0.5em;
+    width: 0.5em;
+    max-height: 600px;
+    max-width: 600px;
+}
+
+/*BEGIN HANDWRITER*/
+.typewriter h1 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    color: #0072ff;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #00ff48;
+    }
+}
+/*END HANDWRITER*/
