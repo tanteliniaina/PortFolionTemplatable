@@ -16,7 +16,7 @@ body {
 
 .fakeimg {
     height: 200px;
-    background: #aaa;
+    background: #4B5E74;
 }
 
 .pictureclass {
@@ -32,14 +32,30 @@ body {
     width: 100%;
 }
 
-h2,
-h5 {
-    color: grey;
-}
 
+h5 {
+    color: #00ff48;
+    font-family: 'roboto';
+    font-style: italic ;
+    font-weight: bolder;
+    text-align: center;
+}
+h2{
+    color: #0072ff;
+    font-weight: bold;
+}
+p{
+    color: white;
+    text-align: justify;
+}
 
 .container-fluid {
     padding: 20px;
+}
+
+.nav-item{
+    color: white;
+    font-size: 20px;
 }
 
 canvas {
@@ -92,3 +108,10 @@ canvas {
     }
 }
 /*END HANDWRITER*/
+
+
+
+mat-expansion-panel-header{
+    background-color: #4B5E74;
+    color: white;
+}

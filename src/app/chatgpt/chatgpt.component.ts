@@ -12,4 +12,6 @@ export class ChatgptComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
+
 }
