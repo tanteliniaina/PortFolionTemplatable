@@ -40,6 +40,7 @@ import { ProductsComponent } from './products/products.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     RouterModule.forRoot([
+      {path: '/', component: AProposComponent},
       {path: 'apropos', component: AProposComponent},
       {path: 'sharepoint', component: SharepointComponent},
       {path: 'ecommerce', component: EcommerceComponent},
